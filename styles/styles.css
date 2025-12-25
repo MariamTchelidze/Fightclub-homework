@@ -534,7 +534,22 @@ form button:hover {
   color: #fff;
   box-shadow: 0 0 20px var(--blood-red);
 }
-
+/* =========================================
+   7.Fight club memebrs section
+   ========================================= */
+#quest-log {
+  display: flex;
+  flex-direction: column;
+}
+#quest-log h2 {
+  text-align: center;
+}
+#quest-log .fightclub-members {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 5rem;
+}
 /* =========================================
    10. FOOTER
    ========================================= */
