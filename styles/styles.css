@@ -551,6 +551,28 @@ form button:hover {
   gap: 5rem;
 }
 /* =========================================
+   7.Fight club memebrs section Responsive edits
+   ========================================= */
+@media (max-width: 895px) {
+  #quest-log .fightclub-members {
+    display: flex;
+    flex-direction: column;
+    white-space: nowrap;
+  }
+}
+@media (max-width: 560px) {
+  #quest-log .fightclub-members img {
+    max-width: 400px;
+    width: auto;
+  }
+}
+@media (max-width: 448px) {
+  #quest-log .fightclub-members img {
+    max-width: 200px;
+    width: auto;
+  }
+}
+/* =========================================
    10. FOOTER
    ========================================= */
 footer {
